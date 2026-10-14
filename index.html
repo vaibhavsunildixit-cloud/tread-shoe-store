@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Tread – Shoe Store</title>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;700;800&family=DM+Sans:wght@400;500;700&display=swap">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<header>
+  <div class="logo">Tread<i>.</i></div><div class="sp"></div>
+  <button class="ib" data-act="cart" aria-label="Open cart">Cart<b id="cc">0</b></button>
+</header>
+<section class="hero">
+  <h1>Shoes for every step.</h1>
+  <p>Twelve pairs, four styles. Pick a colour and size, then check out. Free delivery above ₹5,000.</p>
+</section>
+<div class="bar">
+  <span id="cats"></span>
+  <input id="q" type="search" placeholder="Search shoes" aria-label="Search shoes">
+  <select id="sort" aria-label="Sort"><option value="f">Featured</option><option value="l">Price: low to high</option><option value="h">Price: high to low</option><option value="n">Name</option></select>
+</div>
+<main class="grid" id="grid"></main>
+<footer>Demo store. No real payments are taken.</footer>
+<div class="ov" id="ov"></div>
+<div class="toast" id="toast" role="status"></div>
+
+<script src="js/data.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
